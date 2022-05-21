@@ -1,0 +1,53 @@
+main{
+   background-color: var(--theme);
+   width: 80%;
+   margin: 0 auto;
+   padding: 1rem 2rem;
+}
+
+ol{
+   margin-bottom: 0;
+}
+
+#home{
+   display: block;
+   position: fixed;
+   top: 1ch;
+   right: 10%;
+   font-size: 1.2rem;
+   text-decoration: none;
+   color: black;
+   font-weight: bold;
+   text-shadow: .2rem .1rem .2rem white;
+}
+#home:hover{
+   border-bottom: .1rem white solid;
+   box-shadow: 0 .5ch .5ch -0.3rem white;
+}
+
+h1{
+   margin-top: 0;
+   text-align: center;
+}
+
+img{
+   display: block;
+   margin: 0 auto;
+   max-width: 90%;
+}
+
+@media (min-width: 600px) {
+   img{
+      min-width: 400px;
+   }
+}
+
+@media (max-width: 600px) {
+   main{
+      width: 100%;
+   }
+   #home{
+      right: 0;
+   }
+}
+
